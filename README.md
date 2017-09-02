@@ -1,3 +1,3 @@
 # asm-tasks
-Assembler inlines hometask
+Assembler inlines hometask.
 main.cpp contains tests for trampoline
