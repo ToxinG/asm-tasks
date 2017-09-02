@@ -113,7 +113,7 @@ int main(void) {
 	float std_time_value = std::clock() - std_time;
 	std::cout << std_time_value << std::endl;
 
-	std::cout << naive_time_value / asm_time_value << std::endl;
+	std::cout << simple_time_value / asm_time_value << std::endl;
 
 	return 0;
 	
