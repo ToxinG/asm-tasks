@@ -134,7 +134,7 @@ void stack_base_test() {
     std::cout << "Test 3 PASSED" << std::endl << std::endl;
 }
 
-/*void stack_hard_test() {
+void stack_hard_test() {
 
     std::cout << "Test 4 started" << std::endl;
 
@@ -162,7 +162,7 @@ void stack_base_test() {
         auto p = t.get();
         assert(p(1, 2, 3, 4, 5, 6, 7, 8) == 3);
 
-        std::cout<<" parms sequence test completed" << std::endl;
+        std::cout<<" params sequence test completed" << std::endl;
     }
     {
         trampoline <int (double, int, float, int, int, double, double, float)>
@@ -172,7 +172,7 @@ void stack_base_test() {
         p(2, 3, 4, 5, 6, 7, 8, 9);
         assert(p(1, 2, 3, 4, 5, 6, 7, 8.8) == 8);
 
-        std::cout<<" return parm test completed" << std::endl;
+        std::cout<<" return param test completed" << std::endl;
     }
     {
         typedef std::string st;
@@ -202,7 +202,7 @@ void stack_base_test() {
 
     std::cout << "Test 4 PASSED" << std::endl << std::endl;
 }
- */
+ 
 
 void methods_test () {
 
@@ -230,7 +230,7 @@ int main()
     reg_ptr_test();
     reg_hard_test();
     stack_base_test();
-    //stack_hard_test();
+    stack_hard_test();
     methods_test();
     std::cout << std::endl << "All tests passed" << std::endl << std::endl;
     return 0;
